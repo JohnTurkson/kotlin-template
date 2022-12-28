@@ -1,7 +1,6 @@
 plugins {
     id("com.johnturkson.kotlin")
     id("com.johnturkson.graalvm")
-    id("com.johnturkson.toolchain")
     id("com.johnturkson.publishing")
 }
 
