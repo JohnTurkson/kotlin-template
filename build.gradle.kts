@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     id("org.gradle.application")
     id("org.jetbrains.kotlin.jvm")
@@ -17,7 +15,3 @@ java {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
-
-// tasks.withType<KotlinCompile> {
-//     kotlinOptions.jvmTarget = "17"
-// }
