@@ -66,6 +66,9 @@ android {
 dependencies {
     implementation(projects.common)
     
+    implementation(platform(libs.ktor.bom))
+    implementation(libs.ktor.client.cio)
+    
     implementation(platform(libs.compose.bom))
     androidTestImplementation(platform(libs.compose.bom))
     

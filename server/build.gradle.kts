@@ -19,4 +19,7 @@ graalvmNative {
 
 dependencies {
     implementation(projects.common)
+    
+    implementation(platform(libs.ktor.bom))
+    implementation(libs.ktor.client.cio)
 }
