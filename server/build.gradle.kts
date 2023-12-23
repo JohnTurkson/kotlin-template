@@ -8,7 +8,13 @@ kotlin {
 }
 
 graalvmNative {
-    toolchainDetection.set(true)
+    toolchainDetection = true
+    
+    binaries {
+        named("main") {
+            mainClass = "com.johnturkson.kotlin.template.server.MainKt"
+        }
+    }
 }
 
 dependencies {

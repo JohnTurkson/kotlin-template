@@ -30,7 +30,7 @@ material3 = { group = "androidx.compose.material3", name = "material3" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 android-test = { id = "com.android.test", version.ref = "agp" }
-graalvm = {id = "org.graalvm.buildtools.native", version.ref = "graalvm"}
+graalvm = { id = "org.graalvm.buildtools.native", version.ref = "graalvm" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
