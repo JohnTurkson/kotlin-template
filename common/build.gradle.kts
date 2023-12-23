@@ -11,7 +11,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.johnturkson.kotlin.template.android"
+    namespace = "com.johnturkson.kotlin.template.common"
     compileSdk = 34
     
     buildToolsVersion = "34.0.0"
