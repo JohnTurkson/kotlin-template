@@ -1,5 +1,6 @@
 [versions]
 agp = "8.2.0"
+graalvm = "0.9.28"
 kotlin = "1.9.21"
 core-ktx = "1.12.0"
 junit = "4.13.2"
@@ -29,6 +30,7 @@ material3 = { group = "androidx.compose.material3", name = "material3" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 android-test = { id = "com.android.test", version.ref = "agp" }
+graalvm = {id = "org.graalvm.buildtools.native", version.ref = "graalvm"}
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
